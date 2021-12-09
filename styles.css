@@ -1,0 +1,79 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #000;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+button {
+    background-color: #7679B4;
+    border: none;
+    transition: linear;
+    transition-duration: 150ms;
+    border-radius: 24px;
+    width: 256px;
+    height: 64px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 16px;
+}
+
+button:hover {
+    background-color: #76B19B;
+    transition: linear;
+    transition-duration: 150ms;
+}
+
+.container {
+    margin: auto;
+    margin-top: 5%;
+    width: 75%;
+    height: 65%;
+    padding: 24px;
+    background-color: #E9EAF0;
+    border: 2px solid black;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container > * {
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+.large {
+    flex-grow: 3;
+    flex-basis: 100%;
+    animation: fadeIn 1s;
+}
+
+input, label {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px; 
+    display: block;
+    width: 256px;
+    border-radius: 12px;
+    border: none;
+    -webkit-appearance: textfield;
+}
+
+input {
+    color: #000;
+}
+
+.winners {
+    display: none;
+}

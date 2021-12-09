@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <title>Burtų traukimas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="./index.js"></script>
+  </head>
+  
+  <div class="container">
+    <div id="prize">Dabartinis prizas: </div>
+    <div>
+      <div id="price">Vieno bilieto kaina: </div>
+      <button id="join">Prisijungti</button>
+    </div>
+      <div id="participants">Šiuo momentu žaidžia: </div>
+      <div class="large">
+        <div class="join">
+          <label for="number">Bilietų skaičius</label>
+          <input type="number" name="amount" id="amount">
+          <button class="confirmation">Patvirtinti</button>
+        </div>
+        <div class="winners">
+          <div id="diceSelector">The winner is: </div>
+        </div>
+    </div>
+  </div>
+  </body>
+</html>
+
